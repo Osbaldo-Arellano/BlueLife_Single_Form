@@ -1,0 +1,5 @@
+Simple intrest form for Blue Life Labor.
+
+Stores responses in Supabase. 
+
+Twilio sends bulk SMS to entries.
