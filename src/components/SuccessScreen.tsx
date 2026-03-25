@@ -62,8 +62,6 @@ export function SuccessScreen({ email }: SuccessScreenProps) {
         className="text-sm text-neutral-500 leading-relaxed max-w-xs"
       >
         We'll be in touch at{' '}
-        <span className="font-medium text-neutral-700">{email}</span> within
-        one business day to discuss your project.
       </motion.p>
 
       <motion.div
