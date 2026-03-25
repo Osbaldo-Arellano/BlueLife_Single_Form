@@ -20,7 +20,7 @@ const fieldVariants = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.4, ease: [0.25, 0.1, 0.25, 1] },
+    transition: { duration: 0.4, ease: [0.25, 0.1, 0.25, 1] as [number, number, number, number] },
   },
 };
 
@@ -51,7 +51,7 @@ export function InterestForm({ onSuccess }: InterestFormProps) {
       initial={{ opacity: 0, y: 24 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20, scale: 0.97 }}
-      transition={{ duration: 0.5, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
+      transition={{ duration: 0.5, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] as [number, number, number, number] }}
       className="w-full bg-white rounded-2xl border border-neutral-200 p-8 sm:p-10"
       style={{ boxShadow: "var(--shadow-card)" }}
     >
